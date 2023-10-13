@@ -5,6 +5,7 @@ const ImageDisplay = () => {
 
   return (
     <div>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
       <center>
       <h1>Welcome to Dizzy Dish</h1>
       <img src={imageUrl} alt="Image" />
