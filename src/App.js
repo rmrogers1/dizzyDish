@@ -9,7 +9,7 @@ const ImageDisplay = () => {
     <div>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
       <center>
-      <MediaQuery minWidth={1224}>
+      <MediaQuery maxWidth={1224}>
       <h1>Welcome to Dizzy Dish</h1>
       <img style={myImageStyle} src={imageUrl} alt="Image" />
       </MediaQuery>
