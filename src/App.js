@@ -6,7 +6,7 @@ const ImageDisplay = () => {
   const myImageStyle = { width: '500px', height: '500px' };
 
   return (
-    <MediaQuery minWidth={767}>
+    <MediaQuery maxWidth={767}>
     <div>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
       <center>
