@@ -5,8 +5,10 @@ const ImageDisplay = () => {
 
   return (
     <div>
-      <h1>Image Display</h1>
+      <center>
+      <h1>Welcome to Dizzy Dish</h1>
       <img src={imageUrl} alt="Image" />
+      </center>
     </div>
   );
 };
