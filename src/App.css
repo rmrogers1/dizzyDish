@@ -25,6 +25,11 @@
   animation: blinkingText 2s infinite;
 }
 
+.App-food {
+  color: #00080a;
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -44,4 +49,16 @@
   50%		{ color: #ef0a1a;}
   75%		{ color: #254878;}
   100%	{ color: #04a1d5;}
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }
