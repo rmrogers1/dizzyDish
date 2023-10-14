@@ -1,17 +1,5 @@
 import React from 'react';
 import './App.css';
-import logo from "./logo.svg";
-import "@aws-amplify/ui-react/styles.css";
-import {
-  withAuthenticator,
-  Button,
-  Heading,
-  Image,
-  View,
-  Card,
-}
-
-from "@aws-amplify/ui-react";
 
 const foodArray = ['Pizza','Sushi','Burgers','Thai','Tacos','Pancakes','Tequila','Worth Wild'];
 //const listItems = foodArray.map((food) =>
