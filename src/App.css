@@ -21,7 +21,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(7, 6, 6);
+  /*color: rgb(7, 6, 6);*/
+  animation: blinkingText 2s infinite;
 }
 
 .App-link {
@@ -35,4 +36,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@keyframes blinkingText{
+  0%		{ color: #10c018;}
+  25%		{ color: #1056c0;}
+  50%		{ color: #ef0a1a;}
+  75%		{ color: #254878;}
+  100%	{ color: #04a1d5;}
 }
