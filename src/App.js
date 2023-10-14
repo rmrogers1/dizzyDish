@@ -3,7 +3,7 @@ import './App.css';
 
 const ImageDisplay = () => {
   const imageUrl = 'https://imagesreact.s3.amazonaws.com/IMG_8655+(1).jpg'; // Replace with your image URL
-  const myImageStyle = { width: '200px', height: '200px' };
+  const myImageStyle = { width: '300px', height: '300px' };
 
   return (
     <div className="App">
